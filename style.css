@@ -16,7 +16,7 @@ header {
 .featured {
     text-align: center;
     padding: 80px 20px;
-    background: #222
+    background: #ffffff
 }
 .featured h2 {
     font-size: 48px;
@@ -36,7 +36,7 @@ nav a {
   font-size: 20px;
 }
 nav a:hover {
-    color: #631111;
+    background-color: #631111;
 }
 .hero {
   height: 70vh;
@@ -131,19 +131,20 @@ nav a:hover {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 20px;;
 }
 .contact a {
-    color: #b22222;
+    color: #73b1e4;
     text-decoration: none;
     font-weight: bold;
 }
 .contact a:hover {
-    color: #d12a3a
+    color: #923737
 }
 .contact h1 {
     font-size: 64px;
     margin-bottom: 150px;
+    color: white;
 
 }
 
@@ -190,4 +191,42 @@ footer {
   text-align: center;
 
   padding: 20px;
+}
+@media (max-width: 768px) {
+
+  nav {
+    flex-direction: column;
+
+    gap: 10px;
+
+    padding: 20px;
+  }
+
+  .hero h2 {
+    font-size: 42px;
+  }
+
+  .hero p {
+    font-size: 18px;
+  }
+
+  .inventory h1,
+  .contact h1 {
+    font-size: 42px;
+
+    margin-bottom: 30px;
+  }
+
+  .car-card {
+    width: 90%;
+  }
+
+  .cars {
+    gap: 20px;
+  }
+
+  footer {
+    font-size: 14px;
+  }
+
 }

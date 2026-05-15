@@ -213,12 +213,12 @@ footer {
   .inventory h1,
   .contact h1 {
     font-size: 42px;
-
+    color: #ffffff;
     margin-bottom: 30px;
   }
 
   .car-card {
-    width: 90%;
+    width: 100%;
   }
 
   .cars {
@@ -228,23 +228,23 @@ footer {
   footer {
     font-size: 14px;
   }
-.contact {
+    .contact {
   padding: 40px 20px;
-}
+  }
 
-.inventory {
+    .inventory {
   padding: 40px 20px;
-}
+  }
 
-.contact p,
-.inventory p {
+    .contact p,
+    .inventory p {
   font-size: 18px;
-}
+  }
 
-.contact h1,
-.inventory h1 {
+    .contact h1,
+    .inventory h1 {
   font-size: 42px;
-
+    color: #ffffff;
   margin-bottom: 25px;
-}
+  }
 }

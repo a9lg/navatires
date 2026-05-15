@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #1a1a1a;
+}
+
+header {
+  background: #1f1f1f;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.featured {
+    text-align: center;
+    padding: 80px 20px;
+    background: #222
+}
+.featured h2 {
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+  margin-top: 10px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+nav a:hover {
+    color: #631111;
+}
+.hero {
+  height: 70vh;
+
+  background-image:
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("https://static.where-e.com/United_States/Nava-New-And-Used-Tires_a1e6c12a1f249dcc16a9b5ce060b5b66.jpg");
+
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  color: white;
+}
+
+.hero h2 {
+  font-size: 72px;
+    margin-bottom: 15px;
+    text-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+.hero-btn{
+     background: #631111;
+
+  color: white;
+
+  padding: 15px 35px;
+
+  border-radius: 8px;
+
+  text-decoration: none;
+
+  font-size: 18px;
+
+  transition: 0.3s;
+}
+.hero-btn:hover {
+    background: #8b1e1e;
+    transform: translateY(-2px);
+}
+.hero button {
+  padding: 12px 24px;
+  border: none;
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+
+.cars {
+  display: flex;
+   justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.car-card {
+  background: white;
+  width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  transition: 0.3s;
+}
+.car-card:hover {
+    transform: translateY(-5px);
+}
+.car-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.car-card h3,
+.car-card p {
+  padding: 10px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
+.contact a {
+    color: #b22222;
+    text-decoration: none;
+    font-weight: bold;
+}
+.contact a:hover {
+    color: #d12a3a
+}
+.contact h1 {
+    font-size: 64px;
+    margin-bottom: 150px;
+
+}
+
+.contact p {
+  margin-bottom: 30px;
+
+  font-size: 20px;
+}
+
+.inventory {
+  display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.inventory h1 {
+    font-size: 64px;
+    margin-bottom: 150px;
+  
+}
+
+.inventory p {
+  margin-bottom: 10px;
+
+  font-size: 20px;
+}
+section {
+    padding: 80px 20px;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+footer {
+  background: #1f1f1f;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 20px;
+}

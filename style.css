@@ -228,5 +228,23 @@ footer {
   footer {
     font-size: 14px;
   }
+.contact {
+  padding: 40px 20px;
+}
 
+.inventory {
+  padding: 40px 20px;
+}
+
+.contact p,
+.inventory p {
+  font-size: 18px;
+}
+
+.contact h1,
+.inventory h1 {
+  font-size: 42px;
+
+  margin-bottom: 25px;
+}
 }
